@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
     <head>
         <meta charset="UTF-8">
         <title>Девайс - наш каталог</title>
@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <header>
+    <body class="body">
+        <header class="page-header">
             <nav>
                 <a href="Index.html"> <svg width="163" height="35" viewBox="0 0 163 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_14310_23)">
@@ -21,14 +21,23 @@
                     </defs>
                     </svg> </a>
                 <a href="#">Поиск по сайту</a>
-                <ul>
+                <ul class="reset-list">
                     <li><a href="#">Валентин Петухов</a> </li>
                     <li><a href="#">Выйти</a></li>
                     <li><a href="#">Сравнить</a></li>
                     <li><a href="#">Корзина</a></li>
                 </ul>
-                <ul>
-                    <li><a href="#">Каталог товаров</a></li>
+                <ul class="reset-list">
+                    <li><a href="#">Каталог товаров</a>
+                        <ul class="reset-list">
+                            <li><a href="#">Виртуальная реальность</a> </li>
+                            <li><a href="#">Моноподы для селфи</a> </li>
+                            <li><a href="#">Экшн-камеры</a> </li>
+                            <li><a href="#">Фитнес-браслеты</a> </li>
+                            <li><a href="#">Умные часы</a> </li>
+                            <li><a href="#">Квадрокоптер</a> </li>
+                        </ul>
+                    </li>
                     <li><a href="#">Доставка</a></li>
                     <li><a href="#">Гарантия</a></li>
                     <li><a href="#">Контакты</a></li>
@@ -36,18 +45,18 @@
             </nav>
         </header>
             <main>
-                <h1>Моноподы для селфи</h1>
-                <ul>
+                <h1 class="reset-header">Моноподы для селфи</h1>
+                <ul class="reset-list">
                     <li><a href="Index.html">Главная</a></li>
                     <li><a href="#">Каталог товаров</a></li>
                     <li><a> Моноподы для селфи</a></li>
                 </ul>
                 <section>
-                    <h2>Фильтр</h2>
+                    <h2 class="reset-header">Фильтр</h2>
                 </section>
                 <section>
-                    <h2>Сортировка</h2>
-                    <ul>
+                    <h2 class="reset-header">Сортировка</h2>
+                    <ul class="reset-list">
                         <li><a href="#">По цене</a></li>
                         <li><a href="#">По типу</a></li>
                         <li><a href="#">По популярности</a></li>
@@ -56,39 +65,39 @@
                     </ul>
                 </section>
                 <section>
-                    <ul>
+                    <ul class="reset-list">
                         <li>
                             <a href="#"> <img src="./img/item-1 1.jpg" width="360" height="381"> </a>
-                            <p>Любительская селфи-палка</p>
-                            <p>1100 руб.</p>
-                            <p>
+                            <p class="reset-text">Любительская селфи-палка</p>
+                            <p class="reset-text">1100 руб.</p>
+                            <p class="reset-text">
                                 <a href="#">В корзину</a>
                                 <a href="#">Добавить к сравнению</a>
                             </p>
                         </li>
                         <li>
                             <a href="#"> <img src="./img/item-2 1.jpg" width="360" height="380"> </a>
-                            <p>Профессиональная селфи-палка</p>
-                            <p>1500 руб.</p>
-                            <p>
+                            <p class="reset-text">Профессиональная селфи-палка</p>
+                            <p class="reset-text">1500 руб.</p>
+                            <p class="reset-text">
                                 <a href="#">В корзину</a>
                                 <a href="#">Добавить к сравнению</a>
                             </p>
                         </li>
                         <li>
                             <a href="#"> <img src="./img/item-3 1.jpg" width="360" height="380"> </a>
-                            <p>Непотопляемая селфи-палка</p>
+                            <p class="reset-text">Непотопляемая селфи-палка</p>
                             <p>1500 руб.</p>
-                            <p>
+                            <p class="reset-text">
                                 <a href="#">В корзину</a>
                                 <a href="#">Добавить к сравнению</a>
                             </p>
                         </li>
                         <li>
                             <a href="#"> <img src="./img/item-4 1.jpg" width="360" height="380"> </a>
-                            <p>Селфи-палка «Следуй за мной»</p>
-                            <p>1500 руб.</p>
-                            <p>
+                            <p class="reset-text">Селфи-палка «Следуй за мной»</p>
+                            <p class="reset-text">1500 руб.</p>
+                            <p class="reset-text">
                                 <a href="#">В корзину</a>
                                 <a href="#">Добавить к сравнению</a>
                             </p>
@@ -99,7 +108,7 @@
                 <section>
                     <h2 class="visually-hidden">Пагинация</h2>
                     <a href="#">Назад</a>
-                    <ul>
+                    <ul class="reset-list">
                         <li>
                             <a href="#">1</a>
                         </li>
@@ -116,7 +125,7 @@
     <footer>
         <img src="./icons/logo 6.svg" width="163" height="35" alt="DEVICE!">
         <nav>
-            <ul>
+            <ul class="reset-list">
                 <li>
                     <a href="#">Валентин Петухов</a> 
                 </li>
@@ -131,12 +140,13 @@
                 </li>
             </ul>
         </nav>
-        <p>г. Москва, ул. Строителей, 15</p>
-        <ul>
+        <p class="reset-text">г. Москва, ул. Строителей, 15</p>
+        <ul class="reset-list">
             <li><a href="#">Доставка</a></li>
             <li><a href="#">Гарантия</a></li>
             <li><a href="#">Контакты</a></li>
         </ul>
+        <ul class="reset-list">
             <li><a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_54_320)">
             <path d="M31.9973 16C31.9973 7.16267 24.8347 0 15.9987 0C7.16267 0 0 7.16267 0 16C0 23.984 5.85067 30.6027 13.4987 31.8027V20.624H9.43733V15.9987H13.4987V12.4747C13.4987 8.464 15.888 6.24933 19.5413 6.24933C21.292 6.24933 23.1227 6.56133 23.1227 6.56133V10.4987H21.1067C19.12 10.4987 18.5 11.732 18.5 12.9973V16H22.9373L22.228 20.6253H18.5V31.804C26.148 30.604 31.9987 23.9853 31.9987 16H31.9973Z" fill="white" fill-opacity="0.6"/>
@@ -167,7 +177,7 @@
             </clipPath>
             </defs>
             </svg></a></li>
-    </ul>
+        </ul>
     </footer>
     </body>
 </html>
